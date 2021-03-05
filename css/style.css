@@ -25,3 +25,51 @@ header img {
   top: -27px;
   right: -30px;
 }
+
+/* stile del main */
+
+#burger-name {
+  background-color: transparent;
+  border: none;
+  width: 50%;
+  height: 100px;
+  margin-left: 20px;
+  font-size: 25px;
+}
+
+#burger-name:focus {
+  outline: none;
+}
+
+.ingredients-list {
+  list-style: none;
+  margin-left: 20px;
+  margin-bottom: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+}
+
+ .ingredients-list li {
+  width: 50%;
+  padding: 20px 0;
+  display: flex;
+  align-items: center;
+}
+
+.ingredients-list li img {
+  width: 50px;
+  margin-right: 20px;
+}
+
+.ingredients-list .ingredients {
+  display: inline-block;
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+label {
+  color: red;
+  font-weight: lighter;
+}
