@@ -21,10 +21,8 @@ calculate.addEventListener('click',
       i++;
     }
     // verifico che il coupon sia valido e applico lo sconto
-    for (var j = 0; j < couponList.length; j++) {
-      if (coupon.value == couponList[j]) {
-        somma -= somma * 0.2;
-      }
+    if (couponList.includes(coupon.value)) {
+      somma -= somma * 0.2;
     }
     // stampo il prezzo scontato nella pagina
     prezzoTotale.innerHTML = somma;
