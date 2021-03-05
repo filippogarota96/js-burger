@@ -3,7 +3,7 @@ var calculate = document.getElementById('calculate');
 var coupon = document.getElementById('discount-coupon')
 var prezzoTotale = document.getElementById('totale');
 var couponList = ["garo20", "456ABC", "buger20"]
-
+var moneta = '€';
 
 calculate.addEventListener('click',
  function() {
@@ -25,7 +25,7 @@ calculate.addEventListener('click',
       somma -= somma * 0.2;
     }
     // stampo il prezzo scontato nella pagina
-    prezzoTotale.innerHTML = somma;
+    prezzoTotale.innerHTML = moneta + somma;
   } else {
     alert("Attenzione, inserire il nome dell'Hamburger!!");
   }
