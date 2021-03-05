@@ -8,6 +8,64 @@
   <title>Hamburger</title>
 </head>
 <body>
+  <header>
+    <h1>Create Your Burger</h1>
+  </header>
+  <main>
+
+    <input type="text" name="burger" placeholder="Create your burger" value="">
+    <ul>
+      <li>
+        <label for="cheese">
+          Cheese
+          <input id="cheese" type="checkbox" value="2">
+          add
+        </label>
+      </li>
+      <li>
+        <label for="egg">
+          Egg
+          <input id="egg" type="checkbox" value="4">
+          add
+        </label>
+      </li>
+      <li>
+        <label for="mustard">
+          Mustard
+          <input id="mustard" type="checkbox" value="2">
+          add
+        </label>
+      </li>
+      <li>
+        <label for="tomato">
+          Tomato
+          <input id="tomato" type="checkbox"value="3">
+          add
+        </label>
+      </li>
+      <li>
+        <label for="ketchup">
+          Ketchup
+          <input id="ketchup" type="checkbox" value="2">
+          add
+        </label>
+      </li>
+      <li>
+        <label for="lettuce">
+          Lettuce
+          <input id="lettuce" type="checkbox">
+          add
+        </label>
+      </li>
+    </ul>
+    <label for="discount">Discount Coupon</label>
+    <input id="discount-coupon" type="text" name="discount" value="" placeholder="12345ABCDEF">
+  </main>
+  <footer>
+    <div class="your-price">Your Price</div>
+    <div id="totale">50</div>
+  </footer>
+
   <script src="js/script.js" charset="utf-8"></script>
 </body>
 </html>
