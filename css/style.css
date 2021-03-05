@@ -73,7 +73,7 @@ header img {
   font-weight: 700;
 }
  .ingredients-list label {
-  color: red;
+  color: #D33359;
   font-size: 14px;
   cursor: pointer;
 }
@@ -117,4 +117,20 @@ header img {
 
 .btn:hover {
   background-color: #bc8725;
+}
+
+
+footer {
+  background-color: #D33359;
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 30px;
+}
+
+.your-price,
+#totale, 
+.your-price span {
+  color: #fff;
+  font-size: 30px;
+  font-weight: bold;
 }
