@@ -28,6 +28,7 @@ header img {
 
 /* stile del main */
 
+/* stile della lista ingredients */
 #burger-name {
   background-color: transparent;
   border: none;
@@ -68,8 +69,52 @@ header img {
   margin: 0 10px;
   cursor: pointer;
 }
-
-label {
+.ingredients-list span {
+  font-weight: 700;
+}
+ .ingredients-list label {
   color: red;
-  font-weight: lighter;
+  font-size: 14px;
+  cursor: pointer;
+}
+/* stile del coupon */
+
+.coupon__label {
+  margin-left: 20px;
+  font-weight: 600;
+}
+#discount-coupon {
+ margin-left: 10px;
+ background-color: #FFF5E2;
+ border: none;
+ padding: 5px;
+ border-radius: 10px;
+ width: 50%;
+}
+#discount-coupon:focus{
+  outline: none;
+}
+
+.button-container {
+  text-align: center;
+  padding: 40px 0;
+}
+
+.btn {
+  padding: 20px 30px;
+  background-color: #FDBB40;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.5s background-color;
+}
+
+.btn:focus {
+  outline: none;
+}
+
+.btn:hover {
+  background-color: #bc8725;
 }
