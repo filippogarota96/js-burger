@@ -9,13 +9,17 @@ calculate.addEventListener('click',
     var ingredienti = document.getElementsByClassName('ingredients')
     // scorro gli ingredienti e sommo quelli selezionati
     var somma = 50;
-    for (var i = 0; i < ingredienti.length; i++) {
+    var i = 0
+    while (i < ingredienti.length ) {
       if (ingredienti[i].checked == 1) {
         somma += parseInt(ingredienti[i].value);
       }
+      i++;
     }
     console.log(somma);
+
   } else {
+
     alert("Attenzione, inserire il nome dell'Hamburger!!");
   }
 }
